@@ -1,22 +1,40 @@
 {
-	"movies": [
+	"Favourite Restaurants": [
 		{
-			"Title": "Lost In Translation",
-			"Director": "Sofia Coppola",
-			"Rating": "R",
-			"Year": "2003"
+			"Name": "Quetzal",
+			"Location": "College Street, Toronto",
+			"My Rating": "5/5",
+			"Cusine": "South & Central American",
+			"Notes": "Michelin star"
 		},
 		{
-			"Title": "Casino Royale",
-			"Director": "Martin Campbell",
-			"Rating": "PG-13",
-			"Year": "2006"
+			"Name": "Alo",
+			"Location": "Chinatown, Toronto",
+			"My Rating": "5/5",
+			"Cusine": "French",
+			"Notes": "Michelin star"
 		},
 		{
-			"Title": "The Dark Knight",
-			"Director": "Christopher Nolan",
-			"Rating": "PG-13",
-			"Year": "2008"
+			"Name": "Wynona",
+			"Location": "Lesliville, Toronto",
+			"My Rating": "4/5",
+			"Cusine": "Italian",
+			"Notes": "Bib Gourmand"
+		},
+		{
+			"Name": "The Comrade",
+			"Location": "Lesliville, Toronto",
+			"My Rating": "4/5",
+			"Cusine": "American & French Bar",
+			"Notes": "None of interest"
+		},
+		{
+
+			"Name": "Lake Inez",
+			"Location": "The Beaches, Toronto",
+			"My Rating": "4/5",
+			"Cusine": "Fusion, eclectic",
+			"Notes": "Interesting takes of Canadian classics"
 		}
 	]
 }
