@@ -1,29 +1,27 @@
 {
-	"Favourite Sports Teams": [
-		{
-			"Name": "Toronto Blue Jays",
-			"Sport": "Baseball",
-			"League": "Major Leauge Baseball",
-			"Misc. Notes": "This is my favourite sport."
-		},
-		{
-			"Name": "Toronto Maple Leafs",
-			"Sport": "Hockey",
-			"League": "National Hocket Leauge",
-			"Misc. Notes": "I played for over 8 years."
-		},
-		{
-			"Name": "Kansas City Cheifs",
-			"Sport": "American Football",
-			"League": "National Football Leauge",
-			"Misc. Notes": "No special notes."
-		},
-		{
-			"Name": "Tottenham spurs",
-			"Sport": "Soccer",
-			"League": "Premier League",
-			"Misc. Notes": "Starting to watch this more and more."
-		}
-		
-	]
+	"Favourite Sports Teams": [{
+		"Name": "Toronto Blue Jays",
+		"Leauge": "Major Leauge Baseball",
+		"Date founded": "1997",
+		"Misc.": "Baseball is my favourite sport"
+	},
+	{
+		"Name": "Toronto Maple Leafs",
+		"Leauge": "National Hockey Leauge",
+		"Date founded": "1917",
+		"Misc.": "I played hockey for 8 years growing up"
+	},
+	{
+		"Name": "Kansas City Cheifs",
+		"Leauge": "National Football Leauge",
+		"Date founded": "1959",
+		"Misc.": "Their Quarterback, Patrick Mahomes, is my favourite player"
+	},
+	{
+		"Name": "Tottenham Hotspur",
+		"Leauge": "Premier Leauge",
+		"Date founded": "1882",
+		"Misc.": "Recently started watching soccer."
+	}]
+	
 }
