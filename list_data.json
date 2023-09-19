@@ -1,40 +1,29 @@
 {
-	"Favourite Restaurants": [
+	"Favourite Sports Teams": [
 		{
-			"Name": "Quetzal",
-			"Location": "College Street, Toronto",
-			"My Rating": "5/5",
-			"Cusine": "South & Central American",
-			"Notes": "Michelin star"
+			"Name": "Toronto Blue Jays",
+			"Sport": "Baseball",
+			"League": "Major Leauge Baseball",
+			"Misc. Notes": "This is my favourite sport."
 		},
 		{
-			"Name": "Alo",
-			"Location": "Chinatown, Toronto",
-			"My Rating": "5/5",
-			"Cusine": "French",
-			"Notes": "Michelin star"
+			"Name": "Toronto Maple Leafs",
+			"Sport": "Hockey",
+			"League": "National Hocket Leauge",
+			"Misc. Notes": "I played for over 8 years."
 		},
 		{
-			"Name": "Wynona",
-			"Location": "Lesliville, Toronto",
-			"My Rating": "4/5",
-			"Cusine": "Italian",
-			"Notes": "Bib Gourmand"
+			"Name": "Kansas City Cheifs",
+			"Sport": "American Football",
+			"League": "National Football Leauge",
+			"Misc. Notes": "No special notes."
 		},
 		{
-			"Name": "The Comrade",
-			"Location": "Lesliville, Toronto",
-			"My Rating": "4/5",
-			"Cusine": "American & French Bar",
-			"Notes": "None of interest"
+			"Name": "Tottenham spurs",
+			"Sport": "Soccer",
+			"League": "Premier League",
+			"Misc. Notes": "Starting to watch this more and more."
 		},
-		{
-
-			"Name": "Lake Inez",
-			"Location": "The Beaches, Toronto",
-			"My Rating": "4/5",
-			"Cusine": "Fusion, eclectic",
-			"Notes": "Interesting takes of Canadian classics"
-		}
+		
 	]
 }
