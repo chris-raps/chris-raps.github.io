@@ -1,7 +1,7 @@
 <?xml version=“1.0” encoding=“UTF-8"?>
 <!-- DTD for simple list of resturant data --!>
 
-<!ELEMENT restaurant (id, name, cusine, city, open, close)>
+<!ELEMENT restaurants (id, name, cusine, city, open, close)>
 <!ELEMENT id (#PCDATA)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT cusine (#PCDATA)>
