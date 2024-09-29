@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sun Sep 29 2024 00:06:23 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sun Sep 29 2024 00:28:16 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="66f76a2cc1ba6d34d774017c" data-wf-site="66f76a2cc1ba6d34d774016a">
 <head>
   <meta charset="utf-8">
@@ -17,13 +17,13 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
 <body class="body">
-  <div class="code-embed w-embed">
+  <div class="code-embed w-embed w-script">
     <!DOCTYPE html>
     <html lang="en">
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Header Layout</title>
+      <title>This website is constantly updating</title> <!--  Initial tab title  -->
       <!--  Link to load Source Sans 3 from Google Fonts  -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -35,7 +35,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Source Sans 3', sans-serif; /* Apply Source Sans 3 font to the whole body */
-      font-size: 45px; /* Set default font size to 45px */
+      font-size: 2rem; /* Set default font size (responsive scaling with rem) */
     }
     /* Flexbox layout for the header */
     .flex-container-header {
@@ -71,11 +71,14 @@
       background-color: black;  /* Always black background */
       color: white;             /* Always white text */
       display: inline-block;     /* Needed for background to apply */
+      padding: 5px 10px;
       transition: all 0.3s ease; /* Smooth transition when hover starts */
+      /* Removed border-radius to make it flat and squared */
+      border-radius: 0;          /* No rounding for flat, square edges */
     }
     /* Hover effect with color change for Reads and Chris Raptopoulos */
     .hover-effect:hover {
-      animation: rapidFlash 1s linear infinite; /* Continuous, smooth cycling every 1s with no pause */
+      animation: rapidFlash 2s linear infinite; /* Slowed down animation to 2 seconds for accessibility */
     }
     /* Keyframes for rapid color and background change */
     @keyframes rapidFlash {
@@ -124,7 +127,27 @@
         background-color: white;
       }
     }
+    /* Media query for responsiveness on smaller screens */
+    @media (max-width: 600px) {
+      body {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+      }
+      .canvas-container {
+        width: 100px;
+        height: 100px;
+      }
+    }
   </style>
+      <script>
+    // JavaScript for scrolling tab title
+    let message = "This website is constantly updating     "; // Extra spaces at the end for scrolling
+    let position = 0;
+    function scrollTitle() {
+        document.title = message.substring(position) + message.substring(0, position);
+        position = (position + 1) % message.length;
+    }
+    setInterval(scrollTitle, 200); // Adjust speed here
+  </script>
     </head>
     <body>
       <div class="flex-container-header">
