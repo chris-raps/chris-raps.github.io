@@ -181,20 +181,20 @@
 
 .code-embed {
   font-family: "Source Sans 3", sans-serif;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
 }
 
 .body {
   text-align: left;
   border-radius: 0;
   font-family: "Source Sans 3", sans-serif;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .code-embed-2 {
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 55px;
+  line-height: 55px;
 }
 
 .div-block {
